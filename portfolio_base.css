@@ -11,3 +11,25 @@ Body{
 
     background-color: darkgoldenrod;
 }
+
+  
+section {
+    background-color: gainsboro;
+    padding: 20px;
+}
+
+
+nav {
+    background-color: lightsteelblue;
+    padding: 10px 20px;
+} 
+
+footer {
+    background-color: lightsteelblue;
+    padding: 20px;
+}
+
+li {
+    list-style-type: square;
+    margin: 10px 0;
+  }
