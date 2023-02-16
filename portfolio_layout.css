@@ -7,11 +7,11 @@ Description: CSS layout design mainly for the resume page.
 
 */
 
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
+.reHeading { grid-area: reHeading; }
+.reAbout { grid-area: reAbout; }
+.reEducation { grid-area: reEducation; }
+.reExpertise { grid-area: reExpertise; }
+.reExperience { grid-area: reExperience; }
 
 .grid-container {
   display: grid;
