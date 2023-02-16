@@ -22,7 +22,7 @@ Description: CSS layout design mainly for the resume page.
     'reCertification reCertification reEducation'
     'reExperience reExperience reExpertise';
   gap: 10px;
-  background-color: #2196F3;
+  background-color: white; 
   padding: 5px;
 }
 
@@ -31,4 +31,8 @@ Description: CSS layout design mainly for the resume page.
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+  border-bottom: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  border-bottom: 1px solid #666666;
 }
