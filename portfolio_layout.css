@@ -12,16 +12,18 @@ Description: CSS layout design mainly for the resume page.
 .reEducation { grid-area: reEducation; }
 .reExpertise { grid-area: reExpertise; }
 .reExperience { grid-area: reExperience; }
+.reCertification { grid-area: reCertification; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
+    'reHeading reHeading reHeading'
+    'reAbout reAbout reAbout'
+    'reEducation reEducation reExpertise'
+    'reExperience reExperience reCertification';
   gap: 10px;
   background-color: #2196F3;
-  padding: 10px;
+  padding: 5px;
 }
 
 .grid-container > div {
