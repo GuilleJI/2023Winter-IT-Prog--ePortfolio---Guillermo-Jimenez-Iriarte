@@ -13,7 +13,7 @@ Description: CSS layout design mainly for the resume page.
 }
 .reContactInfo { grid-area: reContactInfo; }
 .reContactInfo li{
-  font-size: 0.8em;
+  font-size: 0.6em;
   
 }
 .reContactInfo ul{
@@ -47,8 +47,9 @@ Description: CSS layout design mainly for the resume page.
   background-color: rgba(255, 255, 255, 0.8);
   text-align: left;
   padding: 20px 0;
-  font-size: 30px;
+  font-size: 25px;
   border-bottom: 1px solid #666666;
   width: 90%;
   margin-left: 5%;
+  margin-bottom: 10px;
 }
