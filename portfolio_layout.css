@@ -8,6 +8,19 @@ Description: CSS layout design mainly for the resume page.
 */
 
 .reHeading { grid-area: reHeading; }
+.reHeading h4{
+  font-weight: normal; 
+}
+.reContactInfo { grid-area: reContactInfo; }
+.reContactInfo li{
+  font-size: 0.8em;
+  
+}
+.reContactInfo ul{
+  padding-top: 20%;
+}
+
+
 .reAbout { grid-area: reAbout; }
 .reEducation { grid-area: reEducation; }
 .reExpertise { grid-area: reExpertise; }
@@ -17,20 +30,25 @@ Description: CSS layout design mainly for the resume page.
 .grid-container {
   display: grid;
   grid-template-areas:
-    'reHeading reHeading reHeading'
+    'reHeading reHeading reContactInfo'
     'reAbout reAbout reAbout'
-    'reCertification reCertification reEducation'
-    'reExperience reExperience reExpertise';
+    'reEducation reEducation reExpertise'
+    'reExperience reExperience reCertification';
   gap: 10px;
   background-color: white; 
   padding: 10px;
   font-family: 'Hanken Grotesk';
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 10px;
 }
 
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
+  text-align: left;
   padding: 20px 0;
   font-size: 30px;
   border-bottom: 1px solid #666666;
+  width: 90%;
+  margin-left: 5%;
 }
