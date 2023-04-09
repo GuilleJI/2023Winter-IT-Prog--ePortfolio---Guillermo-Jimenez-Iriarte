@@ -32,4 +32,13 @@ footer {
 li {
     list-style-type: square;
     margin: 10px 0;
-  }
+    font-size: 14px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h3{
+    text-decoration: underline;
+}
