@@ -8,5 +8,23 @@ Description: CSS file for Contact info ePortfolio site
 */
 
 *{
-  
+  margin: 0; 
+  padding: 0;
+}
+
+html {
+  scroll-behaviour: smooth; 
+}
+
+:root {
+  --navbar-height:59px; 
+}
+
+.navbar{
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  position: sticky; 
+  top:0; 
+  cursor: pointer;
 }
