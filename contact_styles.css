@@ -82,3 +82,11 @@ html {
   margin: auto; 
   height: 80%;
 }
+
+.firstHalf {
+
+  width: 75%; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+}
