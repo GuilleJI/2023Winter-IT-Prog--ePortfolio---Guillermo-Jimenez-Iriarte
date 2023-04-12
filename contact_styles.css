@@ -12,6 +12,19 @@ Description: CSS file for Contact info ePortfolio site
   padding: 0;
 }
 
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: greenyellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 html {
   scroll-behaviour: smooth;
 }
@@ -83,6 +96,7 @@ html {
 .firstsection {
 
   height: 100vh; 
+  background-image: url('https://wallpapercave.com/wp/wp4291598.jpg');
 }
 
 .box-main {
@@ -113,26 +127,21 @@ html {
   font-family: "Piazzolla", serif;
   font-weight: bold; 
   font-size: 41px; 
-  text-align: center; 
+  text-align: center;
+  color: white; 
 }
 
 .text-small { 
-  font-family: "Script", cursive; 
-  font-size: 18px; 
-  text-align: center; 
+  font-family: "Sansita Swashed", cursive;
+    font-size: 18px;
+    text-align: center;
   
 }
 
-#service, div {
-  margin: 50px;
+#service {
+  margin: 34px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 100%;
-  flex-grow: 3;
-  
-  
+  justify-content: space-evenly;
 }
 
 #service .box {
@@ -147,7 +156,7 @@ html {
   height: 100px;
   margin: auto;
   display: block;
-  border-radius: 100px;
+  border-radius: 200px;
 }
 
 #service .box p {
