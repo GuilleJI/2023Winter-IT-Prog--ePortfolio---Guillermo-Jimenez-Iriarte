@@ -1,0 +1,20 @@
+@charset "utf-8";
+/*
+
+Author: Guillermo Jimenez
+Date: 2/4/2023
+Description: CSS file for ePortfolio site 
+
+*/
+
+*{
+    text-align: center; 
+}
+
+.title {
+
+    margin: auto; 
+    width: 640px; 
+    padding: 50px; 
+    font-family: 'Lexend Deca', sans-serif; 
+}
