@@ -10,8 +10,8 @@ Description: CSS file for ePortfolio site
 table {
     border-collapse: collapse;
     width: 100%;
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
+    background-color: #947e7e;
+    border: 1px solid #131212;
 }
 
 td {
@@ -23,7 +23,7 @@ td {
 table{
     border-collapse: collapse; 
     width: 100%; 
-    background-color: #f8f8f8; 
+    background-color: #6c6060; 
     border: 1px solid #ddd; 
 
 }
@@ -43,5 +43,14 @@ li {
     margin: 10px 0; 
     font-size: 16px; 
     line-height: 1.6; 
-    
+
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+
+}
+
+tr:hover {
+    background-color: #ddd;
 }
