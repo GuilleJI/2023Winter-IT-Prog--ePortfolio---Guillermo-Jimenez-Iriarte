@@ -20,4 +20,11 @@ td {
     border: 1px solid #ddd;
 }
 
+table{
+    border-collapse: collapse; 
+    width: 100%; 
+    background-color: #f8f8f8; 
+    border: 1px solid #ddd; 
+
+}
   
