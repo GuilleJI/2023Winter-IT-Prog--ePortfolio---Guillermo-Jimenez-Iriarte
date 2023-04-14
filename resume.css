@@ -7,21 +7,66 @@ Description: CSS file for ePortfolio site
 
 */
 
+/*
+===================================================
+navbar (Home, Contact, Goals, Skills, Resume) 
+===================================================
+*/
+
+.navbar {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: sticky; 
+    top: 0; 
+    cursor: pointer;
+  }
+  
+  .nav-list {
+    width: 70%;
+    display: flex;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-list li {
+    list-style: none;
+    padding: 2px 6px;
+  }
+  
+  .nav-list li a:hover {
+  
+    color: grey; 
+  }
+  
+  :root {
+    --navbar-height: 59px; 
+  }
+  
+  .rightNav { 
+    width: 50; 
+    text-align: right; 
+  }
+/*
+==========================================i
+*/  
+
 *{
     margin: 0; 
-    padding: 0; 
+    padding: 3px; 
     box-sizing: border-box; 
 }
 
 body {
     background-color: rgb(253,254,255);
-    display: flex;
     justify-content: center; 
     align-items: center; 
 }
 .full {
-    width: 50%;
-    max-width: 1000px;
+    width: 100%;
     min-width: 100px;
     background-color: rgb(245, 239, 231);
     margin: 0px; 
@@ -32,6 +77,27 @@ body {
 .right {
     position: initial; 
     background-color: rgb(162, 202, 206);
-    padding: 20px; 
+    padding: 40px; 
 }
 
+.left{
+  position: initial;
+  padding: 30px;
+}
+ul {
+  list-style: square; 
+  margin-left: 20px; 
+}
+
+li {
+  text-indent: -6px; 
+}
+
+.image, .Contact, .Skills, .Language, .Hobbies, .title, 
+.Summary, .Experience, .Education, .Volunteering {
+    margin-bottom: 30px; 
+}
+
+.h2 {
+    background-color: rgb(4, 96, 150);
+}
