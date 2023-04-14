@@ -7,18 +7,44 @@ Description: CSS file for ePortfolio site
 
 */
 
-* {
-    box-sizing: border-box;
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
 }
 
-.column{
-    float: left; 
-    width: 50%; 
-    padding: 10px; 
+body{ 
+    background-color: transparent;
 }
 
-.row {
-    content: ""; 
-    display: table; 
-    clear: both;
+.inner {
+    padding-top: 20px;
+}
+
+.header{
+    text-align: center;
+    color: #fff; 
+    padding: 1rem; 
+    position: relative; 
+}
+
+.header:after{
+    content: '';
+    position: absolute; 
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%);
+    height: 4px; 
+    width: 100px; 
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
 }
