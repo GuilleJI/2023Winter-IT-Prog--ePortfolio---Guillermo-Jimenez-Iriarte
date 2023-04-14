@@ -49,10 +49,15 @@ body{
     font-size: 1.2rem;
 }
 
+.container p{ 
+    overflow-wrap: break-word;
+}
+
 .skill-box {
     padding: 1rem; 
     color: #ddd;
     cursor: pointer; 
+    overflow: hidden;
 }
 
 .skill-title{
