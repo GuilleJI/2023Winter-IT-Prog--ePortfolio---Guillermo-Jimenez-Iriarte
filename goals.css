@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*
+
+Author: Guillermo Jimenez
+Date: 2/4/2023
+Description: CSS file for ePortfolio site 
+
+*/
+
+.background {
+    background-color: transparent; 
+    width: 100%; 
+    display: table; 
+    table-layout: fixed; 
+    padding: 20px; 
+}
+
+.box-main {
+    display: table-cell; 
+    vertical-align: middle; 
+
+}
+
+.firstHalf{
+    width: 50%;
+    margin: 0 auto; 
+}
+
+.text-big {
+    font-size: 28px; 
+}
+
+.strong{
+    font-weight: bold;
+}
